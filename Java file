@@ -1,0 +1,20 @@
+import java.io.*;
+class squareroot
+{
+    public static void main()throws IOException
+    {
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter a number");
+        double a=Double.parseDouble(br.readLine());
+        boolean b;
+        
+        if((Math.sqrt(a))*(Math.sqrt(a))==a)
+        {
+            System.out.print("Yes");
+        }
+        else
+        {
+            System.out.print("No");
+        }
+    }
+}
